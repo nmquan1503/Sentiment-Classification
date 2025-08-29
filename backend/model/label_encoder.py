@@ -14,7 +14,7 @@ class LabelEncoder:
         return [self.label2id[label] for label in labels]
 
     def decode(self, id: int):
-        return self.id2label(id)
+        return self.id2label[id]
 
     def decode_batch(self, ids: list[int]):
         return [self.id2label[id] for id in ids]

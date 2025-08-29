@@ -1,8 +1,8 @@
 import tensorflow as tf
 from keras import models, layers
-from attention import Attention
-from cnn_encoder import CNNEncoder
-from rnn_encoder import RNNEncoder
+from backend.model.attention import Attention
+from backend.model.cnn_encoder import CNNEncoder
+from backend.model.rnn_encoder import RNNEncoder
 
 class HybridModel(models.Model):
     def __init__(

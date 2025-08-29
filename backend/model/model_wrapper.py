@@ -1,12 +1,12 @@
 from bs4 import BeautifulSoup
 import re
 from underthesea import word_tokenize
-from cleaner import Cleaner
-from vocab import Vocab
-from tokenizer import Tokenizer
-from label_encoder import LabelEncoder
+from backend.model.cleaner import Cleaner
+from backend.model.vocab import Vocab
+from backend.model.tokenizer import Tokenizer
+from backend.model.label_encoder import LabelEncoder
 import tensorflow as tf
-from hybrid_model import HybridModel
+from backend.model.hybrid_model import HybridModel
 import numpy as np
 import json
 

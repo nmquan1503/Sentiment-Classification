@@ -1,5 +1,5 @@
 import numpy as np
-from vocab import Vocab
+from backend.model.vocab import Vocab
 
 class Tokenizer:
     def __init__(self, vocab: Vocab, max_len: int):

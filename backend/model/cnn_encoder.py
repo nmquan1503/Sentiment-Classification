@@ -1,6 +1,6 @@
 import tensorflow as tf
 from keras import layers, initializers, models
-from inception_res_1d import InceptionRes1D
+from backend.model.inception_res_1d import InceptionRes1D
 
 class CNNEncoder(layers.Layer):
     def __init__(
