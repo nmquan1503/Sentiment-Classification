@@ -1,6 +1,0 @@
-/data/
-/venv/
-/models/
-.env
-/tests/
-__pycache__/
